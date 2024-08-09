@@ -1,0 +1,16 @@
+*** /dev/null
+--- /dev/null
+***************
+*** 9,10
+- 
+- 
+--- 12,15 -----
++     a=int(5)
++     b=int(8)
++     return "hello executed "+str(a+b)
++ #what the asdasd
+***************
+*** 12
+- hello()
+--- 17 -----
++ print(hello())

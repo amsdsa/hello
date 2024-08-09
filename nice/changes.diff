@@ -1,0 +1,16 @@
+2a3,5
+>     print("great man")
+>     return "cool executed"
+>     ##ooh ooh
+6,7c9,12
+< 
+< 
+---
+>     a=int(5)
+>     b=int(8)
+>     return "hello executed "+str(a+b)
+> #what the asdasd
+9c14
+< hello()
+---
+> print(hello())
